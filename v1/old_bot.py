@@ -69,7 +69,7 @@ class TikTok:
                 "Cookie": "msToken=zgbEqIjfSC7M7QdTTpHDkpWLtnY4JnK22HiSE1iHCRGBBYY_36Gm-gMDqyGLBjpPE2svzjVPNGWyMFYUUEBwmGkr5y2qQuKmfjfTh0i2hfOsb_B7jfDrbd9a4IhjMLPyUIRNIZLqzG6PldNNXA==",
             }
             DATA = client.get(
-                "https://www.tiktok.com/api/user/detail/?device_id=7098862702289995269&uniqueId=%s"
+                "https://www.tiktok.com/api/user/detail/?device_id=7126659521040223490&uniqueId=%s"
                 % (self.username)
             ).json()["userInfo"]["user"]
 
